@@ -16,21 +16,20 @@
                     <a class="nav-link" href="#home">Home</a>
                   </li>
                   <li class="nav-item">
+                    <a class="nav-link" href="#sobreNos">Sobre nós</a>
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link" href="#parceiros">Parceiros</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre nós</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                  </li>
                 </ul>
+                <!--barra de pesquisa-->
                 <form class="d-flex">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                   <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
               </div>
           </nav>
+          <!--seção home-->
           <section id="home">
               <div class="container-fluid home text-center margin">
                 <!--classe containerr adiciona margem, se aplicar estilização a margem vai ficar com a cor do background
@@ -41,25 +40,31 @@
                   <h3>Bem-vindo a PageOne</h3>
               </div>
           </section>
-
-          <selection id="parceiros">
+          <section id="sobreNos">
+            <div class="container-fluid sobreNos text-center margin">
+                <h3>Sobre Nós</h3>
+                <img src="imagens/sobrenos.jpg" class="rounded-circle" width="350" height="350">
+            </div>
+          </section>
+          <!--seção parceiros-->
+          <section id="parceiros">
               <div class="container-fluid text-center margin parceiros">
                   <h3>Nossos Parceiros</h3>
                   <div class="container">
                     <div class="row">
                         <!--lista de parceiros, cada div é um dos parceiros-->
                         <div class="col-lg-4">
-                            <img src="imagens/parceiro1.jpg" width="100" height="100">
+                            <img src="imagens/parceiro1.jpg" width="100%">
                         </div>
                         <div class="col-lg-4">
-                            <img src="imagens/parceiro2.png" width="115" height="115">
+                            <img src="imagens/parceiro2.png" width="100%">
                         </div>
                         <div class="col-lg-4">
-                            <img src="imagens/parceiro3.jpeg" width="115" height="115">
+                            <img src="imagens/parceiro3.jpeg" width="100%">
                         </div>
                     </div>
                   </div>
               </div>
-          </selection>
+          </section>
     </body>
 </html>
