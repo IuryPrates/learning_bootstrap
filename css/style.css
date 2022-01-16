@@ -2,9 +2,16 @@
     background-color: #33FFDD;
 }
 .home{
-    background-color: black;
+    background-color: #2D4E48;
+    color: white;
 }
 .margin{
     /*padding-top adiciona margem interna e joga o background pra cima até 'tocar'*/
-    padding-top: 30px;
+    padding-top: 15px;
+    /*padding-bottom margem abaixo*/
+    padding-bottom: 30px;
+}
+.parceiros{
+    background-color: #0FEC7B;
+    color: white;
 }
