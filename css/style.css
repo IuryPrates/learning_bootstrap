@@ -1,0 +1,10 @@
+.navbar{
+    background-color: #33FFDD;
+}
+.home{
+    background-color: black;
+}
+.margin{
+    /*padding-top adiciona margem interna e joga o background pra cima até 'tocar'*/
+    padding-top: 30px;
+}
